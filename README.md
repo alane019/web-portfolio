@@ -2,6 +2,8 @@
 
 ## Description 
 
+***work in progress***
+
 This assignment is focused on CSS and Bootstrap
 
 This is a portfolio website project demonstrating Bootstrap column styling and media queries to provide a mobile-first, responsive layout.
