@@ -1,15 +1,15 @@
-# template-static-website
+# 02-CSS-Bootstrap
 
 ## Description 
 
-This assignment is focused on  <**SUBJECT**>
+This assignment is focused on CSS and Bootstrap
 
-The purpose of this repository is <**PURPOSE**>
+This is a portfolio website project demonstrating Bootstrap column styling and media queries to provide a mobile-first, responsive layout.
 
 
 ## Table of Contents
 
-  - [course-section-name](#course-section-name)
+  - [02-CSS-Bootstrap](#02-CSS-Bootstrap)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [examples](#examples)
