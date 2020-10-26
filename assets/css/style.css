@@ -1,4 +1,3 @@
-/*Strip the ul of padding and list styling*/
 
 #site-name {
 
@@ -8,18 +7,18 @@
    padding: 5px; 
 }
 
-#currentTab{
-   opacity: .25;
-
+#currentTab {
+   opacity: .55;
+   cursor: default;
+   text-shadow: 0 0 2px black; 
 }
 
-/*Hover state  for nav menu item links*/
-#currentTab:hover a{
-   background: #8b0f0f;
+#currentTab:hover{
+   background: #2f3036;
    text-decoration: none;
-   color: rgb(30, 210, 238);
-   font-weight: bold;
-   text-shadow: #2f3036 0 0 4px 4px;
+   text-shadow: none;
+   color: white;
+   font-weight: normal;
 }
    
 #site-name h1 {
@@ -58,22 +57,16 @@
  margin: 20px;
  margin-left: 0px;
 }
-/*Create a horizontal list with spacing*/
+
 li {
    display:inline-block;
    margin-right: 4px;
    border: rgb(75, 73, 73) solid 3px;
    border-radius: 6px;
    letter-spacing: 2px;
-
-   /* inline-block is ignored due to the float. 
-   If 'float' has a value other than 'none', 
-   the box is floated and 'display' 
-   is treated as 'block'css(propertyIgnoredDueToDisplay)*/
-
+   padding:.2px;
 }
 
-/* ---------------------------------- */
 
 /*Style for nav menu item links*/
 li a {
@@ -82,20 +75,19 @@ li a {
    height: 50px;
    text-align: center;
    line-height: 50px;
-   color: #fff;
+   color: rgb(255, 255, 255);
    background: #2f3036;
    text-decoration: none;
 }
+
 /*Hover state  for nav menu item links*/
-li:hover a {
-   background: #b8b4b4;
+li a:hover {
+   background: #cecece;
    text-decoration: none;
-   color: rgb(16, 23, 24);
+   color: rgba(28, 32, 32, 0.842);
    font-weight: bold;
    text-shadow: #2f3036 0 0 4px 4px;
 }
-
-
 
 /* ---------------------------------- */
 
