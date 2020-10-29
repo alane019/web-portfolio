@@ -7,46 +7,42 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets\css\style.css">  
-    
-<style></style></head>
+</head>
 <body>
 
+    <div id="pageContainer" class="container"> 
 <header>
 
-        <div class="header-menu">
-            <div id="jumbo" class="jumbotron">  
-                <div class="row">  <!----> 
-                        <div id="site-name" class="col-md-6"> <!-- COL -->
-                        <!-- <div  id="site-name">   </div>  [before: contained h1 site name] -->
-                            <h1>Adam&nbsp;Lane</h1> 
-                       
-                        </div> <!-- end COL  -->
-                        
-                        <div class="col-md-6"> <!-- COL -->
-                       <!-- <div id="nav"> --> 
-                            <ul id="nav-ul"> <!-- class was: nav-menu -->
-                                <li>
-                                    <a href=".\contact.html">Contact</a>
-                                </li>
-                                <li>
-                                    <a id="currentTab" href="#">Portfolio</a>
-                                </li>
-                                <li>
-                                    <a  href=".\index.html">About</a>
-                                </li>
-                            </ul>
-                       <!-- - </div>  end div id=Nav -->
-                 </div> <!--  class="col-md-6"> -->     <!-- end COL -->
-                 </div> <!--   div class="row"> --> 
-            </div>  <!-- end jumbotron -->
-        </div>  <!-- end header menu -->
+
+    <div class="row header-row">
+        <div class="col-sm-4">
+          <h2 id="site-name">Adam&nbsp;Lane</h2> 
+       </div>                   
+  
+            <div class="col-sm-8 nav-row-container-column">
+                  <div class="row red-line  nav-button-row">
+                    <!--    <ul id="nav-ul"> - class was: nav-menu -->
+                              <div class="col nav-link-div-container">
+                                  <span class="nav-link-item"> <a id="nav-1" class="nav-link-no-stack" href=".\contact.html">Contact</a> </span>
+                              </div>
+                              <div class="col currentTab  nav-link-div-container">
+                                  <span class="nav-link-item"> <a  class="nav-link-no-stack" href="#">Portfolio</a> </span>
+                              </div>
+                              <div class="col nav-link-div-container">
+                                  <span class="nav-link-item"> <a  class="nav-link-no-stack" href=".\index.html">About</a> </span>
+                            </div>
+                    </div>
+                  <!--  </ul>  -->
+            </div>
+    </div>
+
   
 
 </header>
+<hr>
 
-<div id="pageContainer" class="container"> <!-- Had class: container >>  justify-content-center -->       
 <div class="content"> 
-<h1>Portfolio</h1>
+<h2>Portfolio</h2>
 <div class="content-body"> 
 
     <img src="assets\images\self.jpg" alt="example screenshot">
@@ -67,7 +63,8 @@
 </div>
 </div>
 
-</div> <!-- class="container " --> <!-- Had class: justify-content-center -->
+</div> 
 
 </body>
+
 </html>
