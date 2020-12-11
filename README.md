@@ -1,32 +1,33 @@
-# 02-CSS-Bootstrap
+## Web Portfolio
 
-## Description 
+**Overview**
 
-***work in progress***
+This is Adam Lane's current web portfolio.
 
-This assignment is focused on CSS and Bootstrap
+It includes links to a few recent projects. 
 
-This is a portfolio website project demonstrating Bootstrap column styling and media queries to provide a mobile-first, responsive layout.
+More to come soon. 
 
 ## Table of Contents
 
-  - [02-CSS-Bootstrap](#02-CSS-Bootstrap)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
-  - [examples](#examples)
-  - [Usage](#usage)
-  - [License](#license) 
+- [web-portfolio](#web-portfolio)
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [examples](#examples)
+- [Usage](#usage)
+- [License](#license)
 
 ## Examples
-Demo is viewable here: <https://alane019.github.io/02-CSS-Bootstrap/>
 
-## Usage 
+Demo is viewable here: [https://alane019.github.io/web-portfolio/](https://alane019.github.io/web-portfolio/)
 
-You can use this site template as professional portfolio by cloning this repository and deploying to any web host of your choice. 
+## Usage
 
-## Screenshots
+View and replicate web portfolio as needed.
 
-![EXAMPLE-SCREENSHOT](./assets/images/example-screenshot.png)
+## Screenshot
+
+![screen.jpg](./assets/images/screen.jpg)
 
 ## License
 
